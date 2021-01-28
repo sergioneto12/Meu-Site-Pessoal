@@ -6,7 +6,7 @@ body {
 }
 
 .navbar {
-    background-color: rgb(59, 16, 252);
+    background-color: #3e006b /*rgb(59, 16, 252)*/;
 }
 
 .navbar-brand {
@@ -25,16 +25,16 @@ body {
     background-size: 100%;
     background-position-y: center;
     background-repeat: repeat;
-    background-image: url(/images/Substation_at_sunset_2017.jpg);
+    background-image: url(/images/capa.jpg);
     display: flex;
     margin-top: 4%;
     height: 90vh;  
-    background-color: rgb(245, 166, 101);
+    background-color: #3e006b;
 }
 
 .textInitial, .imageHeader {
     width: 50%;
-    margin-top: 5%;
+    margin: 120px 0 0 0;
     text-align: center;
     color: white;
 }
@@ -50,22 +50,33 @@ body {
 }
 
 .textInitial button {
+    height: 70px;
+    width: 140px;
     border-radius: 0.4rem;
-    background-color: rgb(7, 83, 248);
+    background-color: rgb(206, 206, 206);
     text-decoration: none;
 }
 
+.textInitial button img {
+    height: 30px;
+    width: 30px;
+}
+
 .textInitial a {
-    color: white;
+    color: rgb(7, 83, 248);
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 5%;
 }
 
 .imageHeader img {
     border-radius: 50%;
-    border: 3px rgb(59, 16, 252) solid;
+    border: 3px #3e006b solid;
 }
 
 .sec-1 {
-    background-color: rgb(59, 16, 252);
+    background-color: #3e006b;
 }
 
 .topic-1 {
@@ -168,7 +179,7 @@ body {
 }
 
 .projects {
-    background-color: rgb(59, 16, 252);
+    background-color: #3e006b;
     width: 100%;
     height: 180vh;
 }
@@ -199,8 +210,9 @@ body {
 
 .p-description {
     color: white;
-    margin-top: 7rem;
-    margin-left: 0;
+    text-align: justify;
+    justify-content: center;
+    margin-top: 100px;
 }
 
 .p-description a {
